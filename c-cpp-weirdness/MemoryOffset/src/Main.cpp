@@ -3,14 +3,14 @@
 
 struct Data
 {
-	double v1; // 8 bytes - 0 to 8
+	double v1; // 8 bytes -- 0
 	
-	int v2; // 1 byte - 
+	int v2; // 4 bytes -- 8 
 
-	float v3; // 4 bytes
-	float v4; // 4 bytes
+	float v3; // 4 bytes -- 12
+	float v4; // 4 bytes -- 16
 
-	double v5; // 1 byte
+	double v5; // 8 bytes -- 24
 };
 
 int main()
