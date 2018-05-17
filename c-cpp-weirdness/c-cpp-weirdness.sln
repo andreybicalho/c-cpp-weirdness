@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Threads", "Threads\Threads.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Timing", "Timing\Timing.vcxproj", "{F62760A6-F2AE-4A7D-9BB3-C6D5940AB849}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultidimensionalArray", "MultidimensionalArray\MultidimensionalArray.vcxproj", "{DCD48B72-A9F2-417F-9A26-3A8117AA166C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{F62760A6-F2AE-4A7D-9BB3-C6D5940AB849}.Release|x64.Build.0 = Release|x64
 		{F62760A6-F2AE-4A7D-9BB3-C6D5940AB849}.Release|x86.ActiveCfg = Release|Win32
 		{F62760A6-F2AE-4A7D-9BB3-C6D5940AB849}.Release|x86.Build.0 = Release|Win32
+		{DCD48B72-A9F2-417F-9A26-3A8117AA166C}.Debug|x64.ActiveCfg = Debug|x64
+		{DCD48B72-A9F2-417F-9A26-3A8117AA166C}.Debug|x64.Build.0 = Debug|x64
+		{DCD48B72-A9F2-417F-9A26-3A8117AA166C}.Debug|x86.ActiveCfg = Debug|Win32
+		{DCD48B72-A9F2-417F-9A26-3A8117AA166C}.Debug|x86.Build.0 = Debug|Win32
+		{DCD48B72-A9F2-417F-9A26-3A8117AA166C}.Release|x64.ActiveCfg = Release|x64
+		{DCD48B72-A9F2-417F-9A26-3A8117AA166C}.Release|x64.Build.0 = Release|x64
+		{DCD48B72-A9F2-417F-9A26-3A8117AA166C}.Release|x86.ActiveCfg = Release|Win32
+		{DCD48B72-A9F2-417F-9A26-3A8117AA166C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
