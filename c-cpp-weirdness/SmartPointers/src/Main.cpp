@@ -15,6 +15,9 @@ public:
 
 int main()
 {
+
+	// shared pointers: smart pointers that can be shared, deleting only happens when all shared references go out of scope.
+
 	// example 1: shared pointers, counting references 1
 	std::cout << std::endl << "\nExample 1:" << std::endl;
 	{
@@ -114,9 +117,9 @@ int main()
 
 
 
+	// unique pointers: light weight smart pointer, this is the fastest smart pointer.
 
-
-	// example 8: unique pointers, light weight smart pointer. (can not be copied)
+	// example 8: unique pointers, don't copy it. 
 	std::cout << std::endl << "\nExample 8:" << std::endl;
 	{
 		std::unique_ptr<Entity> p1 = std::make_unique<Entity>("entityOne"); 
@@ -156,7 +159,7 @@ int main()
 	}
 
 	// example 11: unique pointers, deleting arrays
-	std::cout << std::endl << "\nExample 10:" << std::endl;
+	std::cout << std::endl << "\nExample 11:" << std::endl;
 	{
 		std::unique_ptr<Entity[]> ps(new Entity[3]);
 		// don't need to make a lambda function to delete the array... all 3 entities will be automatically deleted
@@ -167,6 +170,26 @@ int main()
 
 
 
+
+
+	// weak pointers: same as shared pointers but it doesn't have the counting management system
+	// example 12: unique pointers, deleting arrays
+	std::cout << std::endl << "\nExample 12:" << std::endl;
+	{
+		std::weak_ptr<Entity> p1;
+
+		{
+			std::shared_ptr<Entity> p2 = std::make_shared<Entity>("entityOne");
+
+			p1 = p2;
+		}
+		// p2 is destroyed, so does p1, however we can check if p1 is still 'valid', or better saying 'expired'
+
+		if(p1.expired())
+		{ 
+			std::cout << "p1 is invalid!\n";
+		}
+	}
 
 
 
