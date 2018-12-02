@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FunctionPointers", "FunctionPointers\FunctionPointers.vcxproj", "{C8132953-B359-4B60-8A7D-355CF4127022}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmartPointers", "SmartPointers\SmartPointers.vcxproj", "{70D20F2E-C042-4E75-94CF-483B9AF583BC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Casting", "Casting\Casting.vcxproj", "{9CD9460B-B523-4EEE-9321-9D4363212E1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrecompiledHeaders", "PrecompiledHeaders\PrecompiledHeaders.vcxproj", "{669ED30C-CF44-4E30-918D-D57D325F7334}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,8 +163,19 @@ Global
 		{9CD9460B-B523-4EEE-9321-9D4363212E1A}.Release|x64.Build.0 = Release|x64
 		{9CD9460B-B523-4EEE-9321-9D4363212E1A}.Release|x86.ActiveCfg = Release|Win32
 		{9CD9460B-B523-4EEE-9321-9D4363212E1A}.Release|x86.Build.0 = Release|Win32
+		{669ED30C-CF44-4E30-918D-D57D325F7334}.Debug|x64.ActiveCfg = Debug|x64
+		{669ED30C-CF44-4E30-918D-D57D325F7334}.Debug|x64.Build.0 = Debug|x64
+		{669ED30C-CF44-4E30-918D-D57D325F7334}.Debug|x86.ActiveCfg = Debug|Win32
+		{669ED30C-CF44-4E30-918D-D57D325F7334}.Debug|x86.Build.0 = Debug|Win32
+		{669ED30C-CF44-4E30-918D-D57D325F7334}.Release|x64.ActiveCfg = Release|x64
+		{669ED30C-CF44-4E30-918D-D57D325F7334}.Release|x64.Build.0 = Release|x64
+		{669ED30C-CF44-4E30-918D-D57D325F7334}.Release|x86.ActiveCfg = Release|Win32
+		{669ED30C-CF44-4E30-918D-D57D325F7334}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A236D640-4863-4B67-ACC1-8FBFD87832A7}
 	EndGlobalSection
 EndGlobal
